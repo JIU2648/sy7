@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>中二病医院大门登记处</title>
+<style>
+body{
+            background: url("images/b.jpg")no-repeat top center;
+            padding:50px 0 0 860px;
+ }
+ form{
+            width: 248px;
+            height: 300px;
+            background-color: #F5EAE8;
+            padding: 30px 40px;
+            border: 1px solid #F5EAE8;
+            border-radius:15px;
+ }
+form.p{
+            color:blue;
+}
+ input{
+            display: block;
+ }
+ [type="text"],[type="password"]{
+            width:250px;
+            height:38px;
+            border:1px solid #CCC;
+            margin-bottom: 30px;
+            font-size: 16px;
+            text-indent: 50px;
+ }
+ [type="text"]{
+            background:url("images/zhanghao.jpg")no-repeat 0 -2px;
+ }
+ [type="password"]{
+            background: url("images/mima.jpg")no-repeat 0 -2px;
+ }
+ [type="checkbox"]{
+            display: inline;
+            vertical-align: middle;
+ }
+[type="radio"]{
+            display:inline;
+            vertical-align:middle;
+}
+ label{
+            font-size: 12px;
+ }
+ .reg{
+            text-align:center;
+            font-size:12px;
+            margin-top:-18px;         
+ }
+.reg a{
+            color:#999;
+            text-decoration:none;
+}
+.reg a:hover{
+            color:#F00;
+            text-decoration:underline;
+}
+[type="submit"]{
+            width:255px;
+            height:44px;
+            margin:25px auto;
+            background-image:url("images/but.jpg");
+            border:none;
+}
+.related{
+            width:330px;
+            height:145px;
+            background-color:#F5EAE8;
+            border-top:1px solid #DDD;
+            padding-top:20px;
+            text-align:center;
+            font-size:14px;
+}
+ </style>
+</head>
+<body>
+<form action-"#" method="post" name="form">
+       <p><h3>中二病专业治疗中心电子系统</h3></p>
+       <input type="text" name="user" placeholder="请填写您的姓名">
+       <input type="password" name="password" placeholder="请填写您的病历编号">
+       <input type="radio" name="choose" value="医生" id="yisheng">
+       <label for="choose">医生</label>
+       <input type="radio" name="chose" value="病患" id="binghuan">
+        <label for="chose">病患</label><br/>
+       <input type="checkbox" name="account" value="1" id="account">
+       <label for="acount">记住暗号</label>
+       <div class="reg">
+            <a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp欢迎入院</a>&nbsp
+            <a href="#">忘记暗号</a>
+       </div>
+       <input type="submit" name="submit" value="">
+</form>
+<div class="related">
+            其他办理途径：
+           <a href="#"><img src="images/weixin(1).png"alt=""></a>
+           <a href="#"><img src="images/qqlogin.png"alt=""></a>
+           <a href="#"><img src="images/taobao.png"alt=""></a><br/>
+            须知：1.在办理入院手续前，请看管好您的脑电波，做一名文明的中二病患者<br/>
+                      2.请看顾好您的随行家属，如果发生冲突，本院执法队将会优先介入处理，
+                         后果自负<br/>
+            谨代表本院全体员工祝您拥有一段愉快的住院时光^^
+</div>
+</body>
+</html>
